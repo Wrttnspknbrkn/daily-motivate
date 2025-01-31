@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { HabitForm } from "./HabitForm";
 import { HabitList } from "./HabitList";
 import { CircularProgress } from "./CircularProgress";
+import { FocusTimer } from "./FocusTimer";
 
 const MOTIVATIONAL_QUOTES = [
   {
@@ -77,15 +78,19 @@ export function Dashboard() {
         </Button>
       </header>
 
-      <Card className="p-6 bg-gradient-to-r from-primary/10 to-secondary/10 border-none">
-        <div className="flex items-start gap-4">
-          <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-          <div>
-            <p className="text-lg font-medium">{quote.text}</p>
-            <p className="text-sm text-muted-foreground mt-2">- {quote.author}</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <Card className="p-6 bg-gradient-to-r from-primary/10 to-secondary/10 border-none">
+          <div className="flex items-start gap-4">
+            <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <p className="text-lg font-medium">{quote.text}</p>
+              <p className="text-sm text-muted-foreground mt-2">- {quote.author}</p>
+            </div>
           </div>
-        </div>
-      </Card>
+        </Card>
+        
+        <FocusTimer />
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Card className="p-6 hover:shadow-lg transition-all duration-300">
