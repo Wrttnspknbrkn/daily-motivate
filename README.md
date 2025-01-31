@@ -1,69 +1,119 @@
-# Welcome to your Lovable project
+# Habitify
 
-## Project info
+Habitify is a beautifully designed habit tracking application that helps users build and maintain productive habits. With features such as motivational quotes, progress tracking, and a focus timer, Habitify aims to provide a seamless and engaging experience for users to achieve their personal goals.
 
-**URL**: https://lovable.dev/projects/2b945e8e-ab94-4b57-9d44-53b6cc471cad
+## 🌟 Live Demo
+Access the live application here: [Habitify](https://daily-motivate.lovable.app/)
 
-## How can I edit this code?
+## 📂 Repository
+Find the source code on GitHub: [Daily Motivate Repository](https://github.com/Wrttnspknbrkn/daily-motivate.git)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2b945e8e-ab94-4b57-9d44-53b6cc471cad) and start prompting.
+### 1. **Habit Dashboard**
+- Displays a daily overview of habits.
+- Includes a rotating motivational quotes section with author attribution to inspire users every day.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 2. **Habit Management**
+- Create, edit, and delete habits with ease.
+- Basic customization options for naming and scheduling habits.
 
-**Use your preferred IDE**
+### 3. **Progress Tracking**
+- Detailed statistics and a 7-day activity chart.
+- Visual streaks and badges to motivate users.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 4. **Pomodoro Focus Timer**
+- 25-minute focus sessions with 5-minute breaks.
+- Play, pause, and reset functionality.
+- Visual feedback and toast notifications for session completion.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 5. **Gamification**
+- Earn badges and levels based on streaks and habit completion.
+- Engaging animations and micro-interactions.
 
-Follow these steps:
+### 6. **Themes**
+- Light and dark mode toggle.
+- Smooth transitions between themes.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 7. **Navigation**
+- Fully functional navigation bar with links to Dashboard, Habits, and Progress views.
+- Each view provides a unique user interface and experience.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 8. **Responsive Design**
+- Fully optimized for mobile, tablet, and desktop devices.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎨 Design Elements
+- **Primary Color**: Fresh mint green (#4CAF50).
+- **Secondary Colors**: Soft orange (#FF9800), subtle gray (#F5F5F5).
+- **Font**: Poppins for headings and body text.
+- **Layout**: Card-based UI with subtle shadows and smooth animations.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔧 Tech Stack
 
-**Use GitHub Codespaces**
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **State Management**: Context API
+- **Motivational Quotes**: Integrated dynamic quotes component
+- **Focus Timer**: Custom Pomodoro timer logic
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📋 Installation and Setup
 
-This project is built with .
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Wrttnspknbrkn/daily-motivate.git
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Navigate to the project directory:
+   ```bash
+   cd daily-motivate
+   ```
 
-## How can I deploy this project?
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/2b945e8e-ab94-4b57-9d44-53b6cc471cad) and click on Share -> Publish.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## I want to use a custom domain - is that possible?
+5. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+---
+
+## 📈 Future Enhancements
+- **Social Sharing**: Share achievements and streaks on social media platforms.
+- **Group Habits**: Collaborate with friends to track habits together.
+- **Voice Commands**: Enable voice control for hands-free habit tracking.
+- **Habit Categories**: Organize habits under categories like Health, Productivity, and Personal Growth.
+- **Calendar Sync**: Integrate habits with Google or Apple Calendar.
+- **Data Insights**: Provide more detailed analytics for user habits.
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Wrttnspknbrkn/daily-motivate/issues).
+
+---
+
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Wrttnspknbrkn/daily-motivate/blob/main/LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+**Kelvin Fameyeh**  
+[GitHub](https://github.com/Wrttnspknbrkn) | [Portfolio](https://kelvinfameyeh.dev)
+
