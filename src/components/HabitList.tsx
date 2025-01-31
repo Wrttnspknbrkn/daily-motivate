@@ -13,7 +13,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import confetti from "react-confetti";
+import ReactConfetti from "react-confetti"; // Changed this line
 
 export function HabitList() {
   const { habits, toggleHabit, deleteHabit } = useHabits();
@@ -46,7 +46,7 @@ export function HabitList() {
     <div className="space-y-4 pb-20">
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
-          <confetti
+          <ReactConfetti
             width={window.innerWidth}
             height={window.innerHeight}
             recycle={false}
@@ -174,3 +174,4 @@ export function HabitList() {
     </div>
   );
 }
+```
